@@ -1,0 +1,269 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn{
+    padding: .7rem 1rem;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    background-color: rgb(67, 169, 248);
+}
+.navbar{
+    background: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+     box-shadow: 0 1px 5px rgb(177, 177, 177);
+}
+
+.img_container {
+    width: 40%;
+}
+.logo{
+    text-align: center;
+}
+.img_container img{
+    width: 20px;
+}
+
+
+#hero_container,#marketing{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+   background-color: rgba(247, 244, 244, 0.537);
+    min-height: 60vh;
+    max-height: auto;
+    
+}
+
+#marketing{
+    flex-direction: row-reverse;
+    background-color: white;
+    align-items: start;
+    padding: 3rem;
+}
+.hero_left,.marketing_left{
+    width: 20rem;
+    margin: 0 2rem;
+}
+.hero_left img, .marketing_left img{
+    width: 100%;
+}
+
+.hero_right,.marketing_right{
+    width: 25rem;
+}
+
+
+.hero_right .tag, .marketing_right .tag{
+    color: rgb(31, 143, 228);
+}
+.hero_right h2, .marketing_right h2{
+    font-size: 3rem;
+    font-weight: 100;
+    color: grey;
+}
+.hero_right h2 span{
+    font-weight: bold;
+    color: black;
+}
+
+.marketing_right h2{
+    font-weight: bold;
+    color: black;
+}
+
+.hero_right .hero_para, .marketing_right .marketing_para{
+    color: rgb(185, 185, 185);
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin: 1rem 0;
+}
+
+.marketing_right .marketing_para{
+    font-size: 1.2rem;
+}
+
+
+
+
+
+#testimonial, #pricing{
+    width: 100%;
+    min-height: 60vh;
+    max-height: auto;
+    background-color: rgb(245, 245, 245) ;
+    padding: 2rem;
+}
+#testimonial h1, #pricing h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.testimonial_para{
+    text-align: center;
+    font-size: 1.5rem;
+    width: 80%;
+    margin: 0 auto;
+    color: rgb(185, 185, 185);
+    font-weight: 100;
+}
+
+.card_container{
+   background-color:rgb(245, 245, 245) ;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px, 280px));
+    justify-content: center;
+    gap: 20px;
+    padding: 2rem;
+}
+
+.card{
+    background: white;
+    padding: 1rem;
+    height: 280px;
+    border-radius: 20px;
+}
+
+.card_head{
+    display: flex;
+    padding: .8rem;
+}
+
+.card_head img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    margin-right: .5rem;
+}
+
+.card_head h2{
+    font-size: 1rem;
+}
+
+.card_head_para{
+   font-size: .8rem;
+   color: rgb(185, 185, 185);
+
+}
+
+.card_body_p{
+    font-size: 1rem;
+    font-weight: 100;
+    padding: 1rem;
+    color: rgb(185, 185, 185);
+}
+
+
+
+
+#calltoaction{
+    background: url("images/call-to-action.png") no-repeat center;
+    background-size: cover;
+    min-height: 60vh;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#calltoaction h1{
+    font-size: 3rem;
+    text-transform: capitalize;    
+}
+
+#calltoaction p{
+    margin: 1rem 0;
+    color: rgb(243, 241, 241);
+}
+#calltoaction button{
+    padding: 1rem  2rem ;
+    border: none;
+    margin: 1.5rem 0;
+    color: rgb(31, 143, 228);
+}
+
+
+
+
+#pricing .card{
+    height: 500px;
+    
+}
+.price_card_head{
+    display: block;
+}
+
+#pricing li{
+    list-style: none;
+    margin: 1rem;
+}
+
+.price_btn{
+    
+    width: 100%;
+    margin: 0 auto;
+}
+footer{
+    background: #343434;
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 2rem;
+    color: rgb(218, 217, 217);
+    min-height: 60vh;
+    max-height: auto;
+    flex-wrap: wrap;
+} 
+
+footer div{
+    margin: 0 1rem;
+}
+footer ul li{
+    list-style: none;
+    margin: .5rem 0;
+    font-size: .9rem;
+    color:rgb(179, 179, 179) ;
+}
+@media (max-width: 575.98px) { 
+
+}
+
+@media (max-width: 768px) { 
+
+    footer{
+        
+        justify-content: start;
+        
+    } 
+}
+
+@media (max-width: 991px) { 
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+}
